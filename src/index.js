@@ -4,7 +4,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import refs from './js/refs.js';
 import Response from './js/response.js';
 import marcupCardsImages from './js/marcup.js';
-import getColor from './js/hover.js';
 
 const response = new Response();
 let isSubmit = false;
