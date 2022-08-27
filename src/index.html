@@ -9,11 +9,25 @@
   </head>
   <body>
     <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
       <button type="submit">Search</button>
       <button type="submit">Get day photo</button>
     </form>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <!-- <include src="./partials/example.html"></include> -->
+    <section id="section" class="section">
+      <div class="gallery"></div>
+      <div class="gallery__end visually-hidden">
+        "We're sorry, but you've reached the end of search results."
+      </div>
+      <div id="preloader" class="visually-hidden">
+        <div class="preloader__first"></div>
+        <div class="preloader__second"></div>
+        <div class="preloader__third"></div>
+      </div>
+    </section>
   </body>
 </html>
