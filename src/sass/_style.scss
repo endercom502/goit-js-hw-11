@@ -114,7 +114,8 @@ img {
 
 .gallery__end {
   font-size: 10px;
-  color: #14e2e980;
+  color: #b7d3db;
+  background-color: #232421cc;
   text-align: center;
   text-decoration: none;
 
@@ -122,13 +123,13 @@ img {
   margin: 0 auto;
   margin-top: 30px;
   padding: 15px;
-  box-shadow: 0 10px 15px #14e2e980;
   border-radius: 10px;
 }
 
 .gallery__end:hover {
-  color: #14e2e9;
-  box-shadow: 0 15px 15px #14e2e9;
+  background-color: #b7d3db;
+  color: #232421cc;
+  
 }
 
 #preloader {
@@ -197,17 +198,19 @@ img {
 
 .search-form input,
 .search-form button {
+  margin-top: 30px;
   padding: 8px 10px;
+
 }
 
 .section {
-  padding: 80px 10px;
+  padding: 0px 10px;
 }
 
 .gallery {
   grid-template-columns: repeat(auto-fill, 360px);
   gap: 30px 30px;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .gallery__image {
@@ -219,6 +222,6 @@ img {
 }
 
 .gallery__end {
-  font-size: 30px;
-  margin-top: 80px;
+  font-size: 20px;
+  margin-top: 25px;
 }

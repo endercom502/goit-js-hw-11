@@ -17,7 +17,6 @@ const marcupCards = async () => {
     checks(requestResponse);
     simpleLightbox();
     infinitiObserver();
-    getColor();
   } catch {
     console.error(error);
   }
